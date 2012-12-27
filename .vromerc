@@ -5,4 +5,6 @@ map k 10k
 map gt x
 map gT s
 
+map D d
+
 set searchengines+={"baidu":"http://www.baidu.com/s?wd={{keyword}}", "dict":"http://dict.youdao.com/search?q={{keyword}}"}
