@@ -7,4 +7,11 @@ map s previousTab
 map x nextTab
 map d closeTab
 
-set searchengines+={"baidu":"http://www.baidu.com/s?wd={{keyword}}", "dict":"http://dict.youdao.com/search?q={{keyword}}"}
+let searchengine baidu = "https://www.baidu.com/s?wd=%s"
+let searchengine bing = "https://www.bing.com/search?q=%s"
+
+let completionengines = ["baidu", "bing"]
+let defaultengine ="baidu"
+
+let searchalias bd = "baidu"
+let searchalias bi = "bing"
