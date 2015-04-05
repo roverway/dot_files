@@ -1,9 +1,10 @@
-map j 10j
-map k 10k
-
-map x gt
-map s gT
-
-map d D
+"let barposition="bottom"
+set noautofocus
+unmap s
+unmap x
+unmap d
+map s previousTab
+map x nextTab
+map d closeTab
 
 set searchengines+={"baidu":"http://www.baidu.com/s?wd={{keyword}}", "dict":"http://dict.youdao.com/search?q={{keyword}}"}
