@@ -1,5 +1,6 @@
 "let barposition="bottom"
 set noautofocus
+
 unmap s
 unmap x
 unmap d
@@ -7,11 +8,14 @@ map s previousTab
 map x nextTab
 map d closeTab
 
+unmap u
+unmap e
+unmap X
+map u lastClosedTab
+
 let searchengine baidu = "https://www.baidu.com/s?wd=%s"
 let searchengine bing = "https://www.bing.com/search?q=%s"
-
 let completionengines = ["baidu", "bing"]
 let defaultengine ="baidu"
-
 let searchalias bd = "baidu"
 let searchalias bi = "bing"
